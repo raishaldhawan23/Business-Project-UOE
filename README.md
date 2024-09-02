@@ -1,4 +1,4 @@
-# Dynamic Pricing and Competitor Analysis
+# Optimization of Pricing Strategies Using Price Elasticity and Competitive Analysis
 
 This project focuses on the implementation of dynamic pricing strategies through exploratory data analysis (EDA) of both company sales data and competitor pricing data. The goal is to optimize pricing to maximize revenue while remaining competitive in the market.
 
