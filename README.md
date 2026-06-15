@@ -90,19 +90,134 @@ The sales analysis revealed a clear trade-off between growth and profitability. 
 
 Business Insight: The company was relying on discounts as a growth mechanism, but the strategy was eroding margins and creating temporary demand spikes rather than sustainable revenue growth.
 <img width="770" height="395" alt="image" src="https://github.com/user-attachments/assets/3e43eef6-56de-446f-8f3e-e55cc7b4cd6a" />
+ 
  *Line Plot Showing Company’s Sales with Discounts*
 
+### 2. The Existing Pricing Strategy Was Stable but Had Reached a Ceiling
 
+Weekly sales without discounts remained consistently around £9.5 million with only minor fluctuations throughout the analysis period. While this demonstrated a stable customer base and predictable demand, the lack of meaningful growth suggested the business had reached a pricing equilibrium where current prices maintained sales but were no longer driving additional revenue.
+
+A notable sales spike during the week of April 8th indicated that demand could increase under certain conditions, highlighting opportunities to optimise pricing and promotional strategies further.
+
+Business Insight: The pricing strategy successfully protected revenue stability but appeared to limit future growth potential.
+<img width="767" height="390" alt="image" src="https://github.com/user-attachments/assets/b4b88b73-ca7b-4729-a2c6-7130b18442de" />
+
+ *Line Plot showing the company’s sales without discounts*
+
+### 3. Demand Was Relatively Price Inelastic
+
+Price elasticity analysis produced an elasticity score of -0.288, indicating relatively inelastic demand. Customers continued purchasing despite price changes, suggesting that moderate price increases would have limited impact on sales volume.
+
+This finding challenged the company's heavy reliance on discounting. The data suggested that many products could potentially support higher prices without significantly reducing demand.
+
+Business Insight: The business was potentially leaving revenue on the table by discounting products that customers were willing to purchase at higher prices.
+
+<img width="785" height="511" alt="image" src="https://github.com/user-attachments/assets/f70f10c6-59ad-4e32-a692-29cafd133b2c" />
+
+*Demand Curve Showing Price Elasticity of Demand*
+
+### 4. Competitors Consistently Operated at Higher Price Points
+
+Competitor pricing analysis revealed a highly structured market rather than one driven by reactive price changes. Box plot analysis across fiscal weeks showed that competitor median prices remained largely stable over time, indicating disciplined pricing strategies and a predictable competitive landscape. Despite operating in the same market conditions, competitors consistently maintained higher price points without significant week-to-week volatility.
+
+<img width="772" height="425" alt="image" src="https://github.com/user-attachments/assets/5730238f-031d-487c-89a8-3e7602eaf226" />
+
+*Box Plots Showing Price Distribution of Competitors by Fiscal Week*
+
+Further analysis of the top 10 merchants revealed distinct pricing approaches. Some merchants concentrated on narrow price ranges targeting specific customer segments, while others operated across broader pricing bands to serve multiple segments. This created a multimodal pricing distribution, with clear clusters in both mid-range (£100-150) and premium (£200-250) categories.
+
+<img width="777" height="507" alt="image" src="https://github.com/user-attachments/assets/8ff26f53-30b8-41f8-af1c-beadbb55d140" />
+
+*Box Plots Showing Price Distribution by Top 10 Merchants*
+
+When competitor pricing was integrated with company sales data, several competitors were found to price products significantly above our costs, with differences reaching as high as $70 per item. Across nearly every price bracket, competitors generated higher sales values while maintaining higher prices, suggesting that customers were willing to pay more than the company's current pricing strategy assumed.
+
+Business Insight: Competitors were not winning through aggressive discounting. They were using stable, segmented pricing strategies that successfully captured both value-conscious and premium customer groups, indicating substantial pricing headroom within the market.
+<img width="770" height="502" alt="image" src="https://github.com/user-attachments/assets/8257de6c-15be-4e4e-a754-bd3e3a267124" />
+
+*Distribution of Prices of Competitor’s Pricing Data*
+
+### 5. Not All Customer Segments Responded to Pricing in the Same Way
+
+Segmentation analysis uncovered significant differences in customer price sensitivity.
+
+Medium-price segment: Elasticity of -0.191, indicating relatively inelastic demand.
+High-price segment: Elasticity of 0.509, indicating significantly greater sensitivity to price changes.
+
+These findings showed that a single pricing strategy was suboptimal. Some products could tolerate price increases, while others required more competitive pricing to maintain demand.
+
+Business Insight: Pricing decisions should be tailored by product segment rather than applying a uniform pricing approach across the portfolio.
+
+### 6. Dynamic Pricing Outperformed Static Pricing Models
+
+By combining elasticity analysis, competitor intelligence and sales performance data, the project demonstrated that dynamic pricing could create a stronger balance between revenue growth and competitiveness.
+
+The analysis suggested:
+
+Increasing prices within inelastic segments to improve margins.
+Maintaining or reducing prices within elastic segments to protect volume.
+Using competitor benchmarks to identify products with pricing headroom.
+
+Business Insight: A data-driven dynamic pricing model offered greater revenue optimisation potential than the company's existing static pricing strategy.
+
+<img width="711" height="236" alt="image" src="https://github.com/user-attachments/assets/33b2e94b-b5ba-4db0-887b-4323a3996279" />
+
+*Sales Summary Showing Dynamic Prices of Items*
+
+### The Overall Story
+When viewed together, the analysis revealed a business caught in a pricing contradiction:
+
+- Demand was stable.
+- Customers were relatively insensitive to price changes.
+- Competitors were charging higher prices.
+- Discounts increased sales but reduced profitability.
+
+The evidence suggested that shifting from broad discounting to elasticity-driven dynamic pricing would improve both profitability and competitive positioning while maintaining customer demand.
+## *The company did not have a demand problem, it had a pricing optimisation problem.*
+
+## 7. Recommendations
+
+### Introduce Elasticity-Based Pricing
+Increase prices in low-sensitivity segments while maintaining competitive pricing in high-sensitivity categories.
+
+### Reduce Reliance on Blanket Discounting
+Move away from broad discounts that erode profitability.
+
+### Implement Segment-Based Pricing
+Create differentiated pricing strategies for:
+
+- High-value products
+- Medium-demand products
+- Price-sensitive products
+
+### Monitor Competitor Pricing Continuously
+Incorporate competitor intelligence into pricing decisions to maintain market positioning.
+
+## 8. Business Impact
+
+The analysis demonstrated that:
+
+- Revenue optimisation opportunities existed without significant demand loss.
+- Competitor benchmarking revealed pricing headroom.
+- Dynamic pricing strategies offered a more sustainable alternative to discount-driven growth.
+- Price elasticity provided a practical framework for future pricing decisions.
+
+## 9. Tech Stack
+Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook 
+
+## Repository Structure:
+
+## Dataset Files:
+- **Competitors pricing.csv**: This file contains the pricing data of competitors, including their pricing strategies for various products over time.
+- **sales summary.csv**: This file includes the sales data from our company, including sales amounts, quantities sold, and other relevant metrics.
+
+## Analysis Notebooks:
 - **EDA of Company Sales Data.ipynb**: A Jupyter Notebook dedicated to the exploratory data analysis of the company's sales data. This analysis includes identifying trends, patterns, and key insights that will inform the dynamic pricing strategy.
 - **EDA of competitors pricing.ipynb**: A Jupyter Notebook that performs exploratory data analysis on the competitor pricing data, allowing us to understand their pricing strategies and identify potential competitive advantages.
 - **Price Distribution - Merged Data.ipynb**: This notebook merges the company's sales data with competitor pricing data to perform a comparative analysis. The goal is to analyze price distributions and determine the impact of competitor pricing on our sales performance.
+
+## Documentation:
 - **README.md**: This document provides an overview of the project, the structure of the repository, and instructions for running the analysis.
-
-## Project Goals
-
-1. **Understand Competitor Pricing Strategies**: By analyzing competitor pricing data, we aim to uncover their pricing strategies and identify any patterns or trends that might influence our pricing decisions.
-2. **Implement Dynamic Pricing**: Using insights from the EDA, we develop and simulate a dynamic pricing model to optimize prices for our products. The goal is to maximize revenue without negatively impacting sales volume.
-3. **Comparative Analysis**: We compare the performance of the existing pricing strategy with the dynamic pricing model, assessing the impact on total sales amount and quantity sold.
 
 ## Getting Started
 
