@@ -100,6 +100,7 @@ Weekly sales without discounts remained consistently around £9.5 million with o
 A notable sales spike during the week of April 8th indicated that demand could increase under certain conditions, highlighting opportunities to optimise pricing and promotional strategies further.
 
 Business Insight: The pricing strategy successfully protected revenue stability but appeared to limit future growth potential.
+
 <img width="767" height="390" alt="image" src="https://github.com/user-attachments/assets/b4b88b73-ca7b-4729-a2c6-7130b18442de" />
 
  *Line Plot showing the company’s sales without discounts*
